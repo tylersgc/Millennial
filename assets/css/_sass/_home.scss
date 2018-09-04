@@ -1,10 +1,11 @@
 .featured-posts {
-  height: 400px;
-  margin: 5px 10px 10px;
+  height: 260px;
+  margin: 15px 10px 10px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .featured-posts h2 {
   bottom: 0;
@@ -26,6 +27,11 @@
 }
 .featured-posts h1 {
   margin: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.featured-posts:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /*
